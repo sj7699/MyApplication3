@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sj.myapplication.MainActivity"
+    tools:showIn="@layout/activity_main"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="211dp"
+        android:layout_height="82dp"
+        android:onClick="onclick2"
+        android:text="Exit"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="213dp"
+        android:layout_height="85dp"
+        android:onClick="onclick1"
+        android:text="Start"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="162dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text=" Test01"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="64dp" />
+</android.support.constraint.ConstraintLayout>
