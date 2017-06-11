@@ -12,6 +12,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.sj.Main2Activity;
+
 import static android.content.Intent.ACTION_VIEW;
 
 public class MainActivity extends AppCompatActivity {
@@ -56,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onclick1(View v)
     {
-        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://m.naver.com"));
-        startActivity(intent);
+Intent intent1 =new Intent(getApplicationContext(), Main2Activity.class);
+        startActivity(intent1);
     }
     public void onclick2(View v)
     {
